@@ -1,0 +1,89 @@
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1 { 
+    color:black;
+    font-size: 60px;
+    font-family:Arial, Helvetica, sans-serif;
+} 
+h2 { 
+  color:black;
+  font-size: 45px;
+  font-family:Arial, Helvetica, sans-serif;
+} 
+
+h3 { 
+  color:black;
+  font-size: 35px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+h5 {
+    color:black;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+h4 {
+  color:black;
+  font-size: 22px;
+  font-family:sans-serif;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: rgb(80, 25, 25);
+    overflow: hidden;
+  }
+   /* Style the links inside the navigation bar */
+  .topnav a {
+    float:left;
+    color: #f2f2f2;
+    text-align:center;
+    padding: 14px 16px;
+    font-size: 17px;
+  }
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color:crimson;
+    color: black;
+  }
+   /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  * {
+    box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+  justify-content: flex-end;
+}
+.item {
+  margin: 5px;
+}
+html, body, div, img {
+    margin: 0;
+    padding: 17px;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+body {
+    line-height: 1;
+}
+
+
+    
+  
